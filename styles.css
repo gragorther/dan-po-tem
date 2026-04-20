@@ -1,0 +1,38 @@
+.main-box {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    border-radius: 2.5rem;
+    text-align: center;
+    min-width: 5%;
+    max-width: 25rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 170;
+    margin: 0;
+}
+
+.text {
+    margin: 0.5rem;
+}
+
+* {
+    color-scheme: light dark;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
